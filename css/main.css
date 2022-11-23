@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: .1s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.nav li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.nav li:hover {
+    background-color: aquamarine;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+}
+
+.H2,
+.H3,
+.H4,
+.H5,
+.H1 {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 185px;
+    background-color: white;
+    /* display: none; */
+}
+
+.H2 a,
+.H3 a,
+.H4 a,
+.H5 a,
+.H1 a {
+    margin-top: 5px;
+}
+
+.H2 a:hover,
+.H3 a:hover,
+.H4 a:hover,
+.H5 a:hover,
+.H1 a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.home1:hover .H1 {
+    /* display: block; */
+    left: 533px;
+    transition-delay: .15s;
+}
+
+.home2:hover .H2 {
+    /* display: block; */
+    left: 633px;
+    transition-delay: .15s;
+}
+
+.home3:hover .H3 {
+    /* display: block; */
+    left: 733px;
+    transition-delay: .15s;
+}
+
+.home4:hover .H4 {
+    /* display: block; */
+    left: 833px;
+    transition-delay: .15s;
+}
+
+.home5:hover .H5 {
+    /* display: block; */
+    left: 933px;
+    transition-delay: .15s;
+}
